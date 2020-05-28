@@ -11,8 +11,9 @@ function App() {
   return (
     <div className="home-me">
       <NavbarComp />
-      <Container fluid className="main-content">
+      <Container className="main-content">
       <Row>
+        <h1>Full Stack Web Developer</h1>
         <Media>
           <Col md={3}>
             <img
@@ -34,6 +35,15 @@ function App() {
         </Media>
       </Row>
       </Container>
+      <footer className="text-muted">
+        <div className="container">
+          <p className="float-right">
+            <a href="#">Back to top</a>
+          </p>
+          <p>Some footer text</p>
+          <p>Some footer text2</p>
+        </div>
+      </footer>
     </div>
   );
 }
