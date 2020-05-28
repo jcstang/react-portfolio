@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import headshot from './headshot-2.png';
 import Media from 'react-bootstrap/Media';
+import PortfolioBoard from './containers/PortfolioBoard';
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
           </Col>
         </Media>
       </Row>
+
+      <PortfolioBoard />
+
       </Container>
       <footer className="text-muted">
         <div className="container">
