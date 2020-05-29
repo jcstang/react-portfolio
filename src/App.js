@@ -1,23 +1,66 @@
-import React from 'react';
-import './App.css';
+import React, { useState } from 'react';
 import NavbarComp from './components/NavbarComp';
-import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-import headshot from './headshot-2.png';
-import Media from 'react-bootstrap/Media';
-import PortfolioBoard from './containers/PortfolioBoard';
-import 'bulma/css/bulma.css';
 import CardContainer from './containers/CardContainer';
-import Card from './components/Card';
 import Footer from './containers/Footer';
+import 'bulma/css/bulma.css';
+import './App.css';
+import Header from './components/Header';
 
 function App() {
+
+  const [ firstRow, setFirstRow ] = useState([
+    {
+      title: 'The Salty Beard | Recipe App',
+      imageUrl: '',
+      description: 'API driven app that dynamic rendered results using HTML, CSS, JQuery and Javascript.',
+      githubUrl: 'https://github.com/Darkthistle982/recipe_box_app',
+      projectUrl: 'https://darkthistle982.github.io/recipe_box_app/'
+    },
+    {
+      title: 'The Salty Beard | Recipe App',
+      imageUrl: '',
+      description: 'API driven app that dynamic rendered results using HTML, CSS, JQuery and Javascript.',
+      githubUrl: 'https://github.com/Darkthistle982/recipe_box_app',
+      projectUrl: 'https://darkthistle982.github.io/recipe_box_app/'
+    },
+    {
+      title: 'The Salty Beard | Recipe App',
+      imageUrl: '',
+      description: 'API driven app that dynamic rendered results using HTML, CSS, JQuery and Javascript.',
+      githubUrl: 'https://github.com/Darkthistle982/recipe_box_app',
+      projectUrl: 'https://darkthistle982.github.io/recipe_box_app/'
+    }
+  ]);
+  const [ secondRow, setSecondRow ] = useState([
+    {
+      title: 'The Salty Beard | Recipe App',
+      imageUrl: '',
+      description: 'API driven app that dynamic rendered results using HTML, CSS, JQuery and Javascript.',
+      githubUrl: 'https://github.com/Darkthistle982/recipe_box_app',
+      projectUrl: 'https://darkthistle982.github.io/recipe_box_app/'
+    },
+    {
+      title: 'The Salty Beard | Recipe App',
+      imageUrl: '',
+      description: 'API driven app that dynamic rendered results using HTML, CSS, JQuery and Javascript.',
+      githubUrl: 'https://github.com/Darkthistle982/recipe_box_app',
+      projectUrl: 'https://darkthistle982.github.io/recipe_box_app/'
+    },
+    {
+      title: 'The Salty Beard | Recipe App',
+      imageUrl: '',
+      description: 'API driven app that dynamic rendered results using HTML, CSS, JQuery and Javascript.',
+      githubUrl: 'https://github.com/Darkthistle982/recipe_box_app',
+      projectUrl: 'https://darkthistle982.github.io/recipe_box_app/'
+    }
+  ]);
+
   return (
     <>
       <NavbarComp />
-      <CardContainer />
-      <CardContainer />
+      <Header />
+      <CardContainer cardList={firstRow} />
+      <CardContainer cardList={secondRow} />
       <Footer />
     </>
   );

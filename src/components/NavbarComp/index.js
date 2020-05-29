@@ -1,9 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bulma/css/bulma.css';
 import logo from '../../logo.svg';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import 'bulma/css/bulma.css';
 import './index.css';
 
 export default function NavbarComp() {

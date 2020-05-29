@@ -1,13 +1,13 @@
 import React from 'react';
 import 'bulma/css/bulma.css';
 
-export default function Card() {
+export default function Card(props) {
   return (
     <div className="column">
       <div class="card">
 
         <div class="card-header">
-          <p class="card-header-title">The Salty Beard | Recipe App</p>
+          <p class="card-header-title">{props.cardDetails.title}</p>
         </div>
 
         <div class="card-content">
@@ -16,12 +16,12 @@ export default function Card() {
               <img src="./assets/img/project1-screen.png" alt="The Salty Beard" />
             </figure>
           </div>
-          <p class="card-text">API driven app that dynamic rendered results using HTML, CSS, JQuery and Javascript.</p>
+          <p class="card-text">{props.cardDetails.description}</p>
         </div>
 
         <footer class="card-footer">
           <p class="card-footer-item">
-            <a href="https://github.com/Darkthistle982/recipe_box_app" target="_blank">
+            <a href={props.cardDetails.githubUrl} target="_blank" rel="noopener noreferrer">
               <button class="button is-primary is-outlined">
                 <span class="icon"><i class="fab fa-github"></i></span>
                 <span>GitHub</span>
@@ -29,7 +29,7 @@ export default function Card() {
             </a>
           </p>
           <p class="card-footer-item">
-            <a href="https://darkthistle982.github.io/recipe_box_app/" target="_blank">
+            <a href={props.cardDetails.projectUrl} target="_blank" rel="noopener noreferrer">
               <button class="button is-link is-outlined">
                 <span class="icon"><i class="fas fa-external-link-alt"></i></span>
                 <span>View Site</span>
