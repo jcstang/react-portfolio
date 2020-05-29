@@ -6,7 +6,6 @@ export default function Footer() {
     return (
         <footer class="container is-fluid footer btm-footer">
             <div class="content has-text-centered">
-
                     <div class="content">
                         <p class="title is-5 has-text-centered">“If I had asked people what they wanted, they would have said faster horses.”</p>
                         <p class="subtitle has-text-centered">- Henry Ford</p>

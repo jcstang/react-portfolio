@@ -3,6 +3,7 @@ import NavbarComp from './components/NavbarComp';
 import CardContainer from './containers/CardContainer';
 import Footer from './containers/Footer';
 import Header from './components/Header';
+import headshot from './headshot-trees-2.svg';
 import 'bulma/css/bulma.css';
 import './App.css';
 
@@ -61,12 +62,24 @@ function App() {
     }
   ]);
 
+  const [ thirdRow ] = useState([
+    {
+      title: 'not reddit, Seenit - COMING SOON',
+      imageUrl: undefined,
+      imgAtl: 'code',
+      description: 'Full Stack MERN app. API routes on Express using Mongo and Mongoose. React with React hooks',
+      githubUrl: 'https://github.com/jcstang/not-reddit',
+      projectUrl: 'https://not-reddit-seenit.herokuapp.com/'
+    }
+  ]);
+
   return (
     <>
       <NavbarComp />
       <Header />
       <CardContainer cardList={firstRow} />
       <CardContainer cardList={secondRow} />
+      <CardContainer cardList={thirdRow} />
       <Footer />
     </>
   );
