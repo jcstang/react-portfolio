@@ -1,3 +1,17 @@
 .footer {
     margin-top: 2rem;
 }
+
+.social-btn {
+    margin-bottom: 1rem;
+}
+
+.my-name-footer {
+    font-family: 'Permanent Marker' ;
+    font-size: x-large;
+}
+
+.btm-footer {
+    /* border-top: 1px solid #333; */
+    box-shadow: 2px 2px 15px #333;
+}

@@ -7,7 +7,7 @@ import './index.css';
 export default function CardContainer(props) {
   return (
     <div className="container">
-      <div className="columns is-centered">
+      <div className="columns is-centered is-full-mobile">
         {
           props.cardList.map((card, index) => (
             <Card key={index} cardDetails={card}/>

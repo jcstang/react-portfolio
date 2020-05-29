@@ -2,10 +2,9 @@ import React, { useState } from 'react';
 import NavbarComp from './components/NavbarComp';
 import CardContainer from './containers/CardContainer';
 import Footer from './containers/Footer';
+import Header from './components/Header';
 import 'bulma/css/bulma.css';
 import './App.css';
-import Header from './components/Header';
-import NavBulma from './components/NavBulma';
 
 function App() {
 
@@ -40,7 +39,7 @@ function App() {
       title: 'Giphy API App',
       imageUrl: 'https://jcstang-s3.s3-us-west-1.amazonaws.com/img-assets/giphy-screen.png',
       imgAtl: 'giphy api app screenshot',
-      description: 'API driven app that dynamic rendered results using HTML, CSS, JQuery and Javascript.',
+      description: 'API app using the giphy api. Using meyerweb reset css, fontawesome and Google fonts. jQuery AJAX calls.',
       githubUrl: 'https://github.com/jcstang/giphy-api-app',
       projectUrl: 'https://jcstang.github.io/giphy-api-app/'
     },
@@ -48,7 +47,7 @@ function App() {
       title: 'LIRI - node cli',
       imageUrl: 'https://jcstang-s3.s3-us-west-1.amazonaws.com/img-assets/Node.js_logo.svg',
       imgAtl: 'node logo',
-      description: 'API driven app that dynamic rendered results using HTML, CSS, JQuery and Javascript.',
+      description: 'Just like Siri but its Liri. Node CLI that I am proud has a very clean entry point. Using Node, DotEnv, OMDB API, Axios and Node-spotify-api.',
       githubUrl: 'https://github.com/jcstang/liri-node-app',
       projectUrl: undefined
     },
@@ -56,7 +55,7 @@ function App() {
       title: '@jcstang/get-movie - my npm package ',
       imageUrl: 'https://jcstang-s3.s3-us-west-1.amazonaws.com/img-assets/Npm-logo.svg',
       imgAtl: 'npm logo',
-      description: 'API driven app that dynamic rendered results using HTML, CSS, JQuery and Javascript.',
+      description: 'Wanted to publish a package to npm, found a tutorial and decided to give it a shot! Node and npm',
       githubUrl: 'https://github.com/Darkthistle982/recipe_box_app',
       projectUrl: undefined
     }
