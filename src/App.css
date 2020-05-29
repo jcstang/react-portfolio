@@ -48,3 +48,7 @@
 footer .button {
   margin-right: 1rem;
 }
+
+section {
+  box-shadow: 2px 2px 15px #333;
+}
