@@ -7,6 +7,8 @@ import Row from 'react-bootstrap/Row';
 import headshot from './headshot-2.png';
 import Media from 'react-bootstrap/Media';
 import PortfolioBoard from './containers/PortfolioBoard';
+import 'bulma/css/bulma.css'
+import CardContainer from './containers/CardContainer';
 
 function App() {
   return (
@@ -36,7 +38,7 @@ function App() {
         </Media>
       </Row>
 
-      <PortfolioBoard />
+      <CardContainer />
 
       </Container>
       <footer className="text-muted">

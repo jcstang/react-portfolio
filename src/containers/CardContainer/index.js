@@ -4,9 +4,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Project from '../../components/Project';
 import Item from '../../components/Item';
+import Card from '../../components/Card';
 
 
-export default function PortfolioBoard() {
+export default function CardContainer() {
 
   const [projectList, setProjectList] = useState([
     {
@@ -69,17 +70,14 @@ export default function PortfolioBoard() {
 
 
   return (
-    <Container>
-      <Row>
+    <div className="container">
+      <div className="columns is-centered">
         {
-          projectList.map((project, index) => (
-            <Col md={3}>
-              <Project project={project}/>
-            </Col>
+          projectList.map((card, index) => (
+            <Card />
           ))
         }
-        <Item />
-      </Row>
-    </Container>
+      </div>
+    </div>
   );
 }
