@@ -13,7 +13,7 @@ export default function Card(props) {
         <div class="card-content">
           <div class="card-image">
             <figure class="image is-4by3">
-              <img src="./assets/img/project1-screen.png" alt="The Salty Beard" />
+              <img src="./assets/img/project1-screen.png" alt={props.cardDetails.imgAlt} />
             </figure>
           </div>
           <p class="card-text">{props.cardDetails.description}</p>
