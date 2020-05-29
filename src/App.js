@@ -1,54 +1,74 @@
-import React from 'react';
-import './App.css';
+import React, { useState } from 'react';
 import NavbarComp from './components/NavbarComp';
-import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-import headshot from './headshot-2.png';
-import Media from 'react-bootstrap/Media';
-import PortfolioBoard from './containers/PortfolioBoard';
+import CardContainer from './containers/CardContainer';
+import Footer from './containers/Footer';
+import 'bulma/css/bulma.css';
+import './App.css';
+import Header from './components/Header';
 
 function App() {
+
+  const [ firstRow, setFirstRow ] = useState([
+    {
+      title: 'The Salty Beard | Recipe App',
+      imageUrl: '',
+      imgAtl: '',
+      description: 'API driven app that dynamic rendered results using HTML, CSS, JQuery and Javascript.',
+      githubUrl: 'https://github.com/Darkthistle982/recipe_box_app',
+      projectUrl: 'https://darkthistle982.github.io/recipe_box_app/'
+    },
+    {
+      title: 'Word Guess Game - 80s style',
+      imageUrl: '',
+      imgAtl: '',
+      description: 'HTML/CSS/JS stack app that will take user input to guess correct word. Frontend 80s theme. ',
+      githubUrl: 'https://github.com/jcstang/Word-Guess-Game',
+      projectUrl: 'https://jcstang.github.io/Word-Guess-Game/'
+    },
+    {
+      title: 'PASSMAN | modern password manager',
+      imageUrl: '',
+      imgAtl: '',
+      description: 'Fullstack HTML/CSS/JS/JQuery, Node, Express, Handlebars and MySQL. Encrypted passwords using the C++ version of bcrypt npm package.',
+      githubUrl: 'https://github.com/jcstang/passMan',
+      projectUrl: ''
+    }
+  ]);
+  const [ secondRow, setSecondRow ] = useState([
+    {
+      title: 'Giphy API App',
+      imageUrl: '',
+      imgAtl: '',
+      description: 'API driven app that dynamic rendered results using HTML, CSS, JQuery and Javascript.',
+      githubUrl: 'https://github.com/jcstang/giphy-api-app',
+      projectUrl: 'https://jcstang.github.io/giphy-api-app/'
+    },
+    {
+      title: 'LIRI - node cli',
+      imageUrl: '',
+      imgAtl: '',
+      description: 'API driven app that dynamic rendered results using HTML, CSS, JQuery and Javascript.',
+      githubUrl: 'https://github.com/jcstang/liri-node-app',
+      projectUrl: ''
+    },
+    {
+      title: '@jcstang/get-movie - my npm package ',
+      imageUrl: '',
+      imgAtl: '',
+      description: 'API driven app that dynamic rendered results using HTML, CSS, JQuery and Javascript.',
+      githubUrl: 'https://github.com/Darkthistle982/recipe_box_app',
+      projectUrl: ''
+    }
+  ]);
+
   return (
-    <div className="home-me">
+    <>
       <NavbarComp />
-      <Container className="main-content">
-      <Row>
-        <h1>Full Stack Web Developer</h1>
-        <Media>
-          <Col md={3}>
-            <img
-              width={180}
-              height={180}
-              className="align-self-start mr-3"
-              src={headshot}
-              alt="Generic placeholder"
-            />
-          </Col>
-          <Col md={9}>
-            <Media.Body>
-              <h5>About me</h5>
-              <p>
-                Full stack web developer with a passion for iOS development. Educated in computer science at Weber State University and recently earned a coding certificate from the University of Utah. Life-long learner that thrives in team environments and is driven by complex problem solving with more than 100 hours on Udemy and Pluralsight. Expertise interfacing and scoping solutions with clients and clearly explaining technical topics to stakeholders.
-              </p>
-            </Media.Body>
-          </Col>
-        </Media>
-      </Row>
-
-      <PortfolioBoard />
-
-      </Container>
-      <footer className="text-muted">
-        <div className="container">
-          <p className="float-right">
-            <a href="#">Back to top</a>
-          </p>
-          <p>Some footer text</p>
-          <p>Some footer text2</p>
-        </div>
-      </footer>
-    </div>
+      <Header />
+      <CardContainer cardList={firstRow} />
+      <CardContainer cardList={secondRow} />
+      <Footer />
+    </>
   );
 }
 

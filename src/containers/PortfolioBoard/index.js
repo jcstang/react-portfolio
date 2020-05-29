@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Project from '../../components/Project';
+import Item from '../../components/Item';
 
 
 export default function PortfolioBoard() {
@@ -77,6 +78,7 @@ export default function PortfolioBoard() {
             </Col>
           ))
         }
+        <Item />
       </Row>
     </Container>
   );
