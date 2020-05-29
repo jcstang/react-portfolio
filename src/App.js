@@ -5,6 +5,7 @@ import Footer from './containers/Footer';
 import 'bulma/css/bulma.css';
 import './App.css';
 import Header from './components/Header';
+import NavBulma from './components/NavBulma';
 
 function App() {
 

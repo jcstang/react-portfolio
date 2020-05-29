@@ -13,12 +13,12 @@ export default function NavbarComp() {
         <Navbar.Brand href="">
           <img src={logo} className="App-logo" alt="logo" />
         </Navbar.Brand>
-        <Navbar.Brand href="#home">Jacob Stanger</Navbar.Brand>
+        <Navbar.Brand href="/">Jacob Stanger</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#home">About</Nav.Link>
-            <Nav.Link href="#link">Portfolio</Nav.Link>
+            <Nav.Link href="/">About</Nav.Link>
+            <Nav.Link href="/">Portfolio</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
