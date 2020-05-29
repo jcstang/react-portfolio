@@ -2,6 +2,7 @@ import React from 'react';
 import 'bulma/css/bulma.css';
 
 export default function Card(props) {
+  const defaultImage = "https://jcstang-s3.s3-us-west-1.amazonaws.com/img-assets/code-background.svg";
   return (
     <div className="column">
       <div class="card">
@@ -13,7 +14,7 @@ export default function Card(props) {
         <div class="card-content">
           <div class="card-image">
             <figure class="image is-4by3">
-              <img src="./assets/img/project1-screen.png" alt={props.cardDetails.imgAlt} />
+              <img src={props.cardDetails.imageUrl || defaultImage} alt={props.cardDetails.imgAlt} />
             </figure>
           </div>
           <p class="card-text">{props.cardDetails.description}</p>
