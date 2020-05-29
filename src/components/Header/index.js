@@ -1,5 +1,5 @@
 import React from 'react';
-import headshot from '../../headshot-trees-2.svg';
+import headshot from '../../headshot-trees-300x311.png';
 import './index.css';
 
 export default function Header() {
@@ -9,8 +9,6 @@ export default function Header() {
         <div className="row">
           <div className="col-md-3">
             <img
-              width={180}
-              height={180}
               className="align-self-start mr-3"
               src={headshot}
               alt="Generic placeholder"
