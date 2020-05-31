@@ -24,7 +24,7 @@ export default function Footer() {
                         <span>GitHub</span>
                     </a>
 
-                    <a class="button is-info social-btn" href="https://twitter.com/Django_Stang" target="_blank" rel="noopener noreferrer">
+                    <a class="button is-info social-btn" href="https://twitter.com/jc_stang" target="_blank" rel="noopener noreferrer">
                         <span class="icon"><i class="fab fa-twitter"></i></span>
                         <span>Twitter</span>
                     </a>
