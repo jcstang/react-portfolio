@@ -3,13 +3,20 @@ import NavbarComp from './components/NavbarComp';
 import CardContainer from './containers/CardContainer';
 import Footer from './containers/Footer';
 import Header from './components/Header';
-import headshot from './headshot-trees-2.svg';
 import 'bulma/css/bulma.css';
 import './App.css';
 
 function App() {
 
   const [ firstRow, setFirstRow ] = useState([
+    {
+      title: 'React Book App',
+      imageUrl: 'https://jcstang-s3.s3-us-west-1.amazonaws.com/img-assets/react-books-app-screenshot.png',
+      imgAtl: 'screenshot of react book app',
+      description: 'A React app that uses the Google Book API. Also using React hooks like useReducer to manage state. MongoDB and Mongoose.',
+      githubUrl: 'https://github.com/jcstang/react-books',
+      projectUrl: 'https://react-roogle-books.herokuapp.com/'
+    },
     {
       title: 'PASSMAN | modern password manager',
       imageUrl: 'https://jcstang-s3.s3-us-west-1.amazonaws.com/img-assets/passman-project-screenshot.png',
@@ -26,7 +33,9 @@ function App() {
       githubUrl: 'https://github.com/Darkthistle982/recipe_box_app',
       projectUrl: 'https://darkthistle982.github.io/recipe_box_app/'
     },
-
+    
+  ]);
+  const [ secondRow, setSecondRow ] = useState([
     {
       title: 'Word Guess Game - 80s style',
       imageUrl: 'https://jcstang-s3.s3-us-west-1.amazonaws.com/img-assets/word-guess-screen.png',
@@ -34,10 +43,7 @@ function App() {
       description: 'HTML/CSS/JS stack app that will take user input to guess correct word. Frontend 80s theme. ',
       githubUrl: 'https://github.com/jcstang/Word-Guess-Game',
       projectUrl: 'https://jcstang.github.io/Word-Guess-Game/'
-    }
-
-  ]);
-  const [ secondRow, setSecondRow ] = useState([
+    },
     {
       title: 'Giphy API App',
       imageUrl: 'https://jcstang-s3.s3-us-west-1.amazonaws.com/img-assets/giphy-screen.png',
@@ -54,16 +60,8 @@ function App() {
       githubUrl: 'https://github.com/jcstang/liri-node-app',
       projectUrl: undefined
     },
-    {
-      title: '@jcstang/get-movie - my npm package ',
-      imageUrl: 'https://jcstang-s3.s3-us-west-1.amazonaws.com/img-assets/Npm-logo.svg',
-      imgAtl: 'npm logo',
-      description: 'Wanted to publish a package to npm, found a tutorial and decided to give it a shot! Node and npm',
-      githubUrl: 'https://github.com/Darkthistle982/recipe_box_app',
-      projectUrl: undefined
-    }
   ]);
-
+  
   const [ thirdRow ] = useState([
     {
       title: 'not reddit, Seenit - COMING SOON',
@@ -72,7 +70,15 @@ function App() {
       description: 'Full Stack MERN app. API routes on Express using Mongo and Mongoose. React with React hooks',
       githubUrl: 'https://github.com/jcstang/not-reddit',
       projectUrl: 'https://not-reddit-seenit.herokuapp.com/'
-    }
+    },
+    {
+      title: '@jcstang/get-movie - my npm package ',
+      imageUrl: 'https://jcstang-s3.s3-us-west-1.amazonaws.com/img-assets/Npm-logo.svg',
+      imgAtl: 'npm logo',
+      description: 'Wanted to publish a package to npm, found a tutorial and decided to give it a shot! Node and npm',
+      githubUrl: 'https://github.com/Darkthistle982/recipe_box_app',
+      projectUrl: undefined
+    },
   ]);
 
   return (

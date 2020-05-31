@@ -1,6 +1,6 @@
 import React from 'react';
 // import headshot from '../../headshot-trees-300x311.png';
-import headshot from '../../../images/headshot-trees-300x311.png';
+import headshot from '../../images/headshot-trees-300x311.png';
 import './index.css';
 
 export default function Header() {
