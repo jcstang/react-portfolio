@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import NavbarComp from './components/NavbarComp';
 import CardContainer from './containers/CardContainer';
-import Footer from './containers/Footer';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import initData from './data/init-data';
 import 'bulma/css/bulma.css';
