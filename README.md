@@ -26,30 +26,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Build Status](https://travis-ci.org/jcstang/react-portfolio.svg?branch=master)](https://travis-ci.org/jcstang/react-portfolio)
 
-
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/github_username/repo">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">YOUR_TITLE</h3>
-
-  <p align="center">
-    Full Stack Web Developer, I love to solve complex problems.
-    <br />
-    <a href="https://github.com/github_username/repo"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo/issues">Request Feature</a>
-  </p>
-</p>
-
+# JACOB STANGER | Full Stack Web Developer | Profile
 
 
 <!-- TABLE OF CONTENTS -->
