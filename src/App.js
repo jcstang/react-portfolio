@@ -4,6 +4,7 @@ import CardContainer from './containers/CardContainer';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import initData from './data/init-data';
+import TechSection from './components/TechSection';
 import 'bulma/css/bulma.css';
 import './App.css';
 
@@ -14,13 +15,21 @@ function App() {
   const [ secondRowState ] = useState(initData.row2);
   const [ thirdRowState ] = useState(initData.row3);
 
+  const [ firstTechRowState ] = useState(initData.techRow1); 
+  const [ secondTechRowState ] = useState(initData.techRow2); 
+
   return (
     <>
       <NavbarComp />
       <Header />
+
+      <TechSection techList={firstTechRowState}/>
+      <TechSection techList={secondTechRowState}/>
+
       <CardContainer cardList={firstRowState} />
       <CardContainer cardList={secondRowState} />
       <CardContainer cardList={thirdRowState} />
+
       <Footer />
     </>
   );
