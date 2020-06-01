@@ -72,9 +72,111 @@ const row3Data = [
     },
 ];
 
+// fab fa-twitter-square
+// fab fa-ubuntu
+// fab fa-salesforce
+// fab fa-sass
+// fab fa-safari
+// fab fa-slack
+// fab fa-grunt
+// fab fa-github
+// fab fa-gitkraken
+// fab fa-gulp
+// fab fa-linux
+// fab fa-linode
+// fab fa-markdown
+// fab fa-microsoft
+// fab fa-apple
+// fab fa-aws
+// fab fa-bootstrap
+// fab fa-chrome
+// fab fa-codepen
+// fab fa-cpanel
+// fab fa-dev
+// fab fa-docker
+// fab fa-font-awesome
+// fab fa-free-code-camp
+// fab fa-swift
+// fab fa-vuejs
+// fab fa-yarn
+
+const defaultIcon = "fas fa-code";
+
+const techIKnow1Row = [
+    {
+        title: 'Node JS',
+        iconCode: 'fab fa-node',
+        sizeCode: 'fa-5x'
+    },
+    {
+        title: 'npm',
+        iconCode: 'fab fa-npm',
+        sizeCode: 'fa-5x'
+    },
+    {
+        title: 'SASS',
+        iconCode: 'fab fa-sass',
+        sizeCode: 'fa-5x'
+    },
+    {
+        title: 'gitkraken',
+        iconCode: 'fab fa-gitkraken',
+        sizeCode: 'fa-5x'
+    },
+    {
+        title: 'Linux',
+        iconCode: 'fab fa-linux',
+        sizeCode: 'fa-5x'
+    },
+    {
+        title: 'Bootstrap',
+        iconCode: defaultIcon,
+        sizeCode: 'fa-5x'
+    },
+];
+const techIKnow2Row = [
+    {
+        title: 'React JS',
+        iconCode: 'fab fa-react',
+        sizeCode: 'fa-5x'
+    },
+    {
+        title: 'HTML5',
+        iconCode: 'fab fa-html5',
+        sizeCode: 'fa-5x'
+    },
+    {
+        title: 'CSS3',
+        iconCode: 'fab fa-css3',
+        sizeCode: 'fa-5x'
+    },
+    {
+        title: 'Javascript',
+        iconCode: 'fab fa-js',
+        sizeCode: 'fa-5x'
+    },
+    {
+        title: 'jQuery',
+        iconCode: defaultIcon,
+        sizeCode: 'fa-5x'
+    },
+    {
+        title: 'Salesforce',
+        iconCode: defaultIcon,
+        sizeCode: 'fa-5x'
+    },
+    {
+        title: 'iOS and macOS',
+        iconCode: 'fab fa-apple',
+        sizeCode: 'fa-5x'
+    },
+];
+
 
 module.exports = {
     row1: row1Data,
     row2: row2Data,
-    row3: row3Data
+    row3: row3Data,
+    techRow1: techIKnow1Row,
+    techRow2: techIKnow2Row
 }
