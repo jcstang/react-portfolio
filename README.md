@@ -17,9 +17,12 @@
 
 ### Built With
 
-* [React]()
-* [React-bootstrap]()
-* [Bulma]()
+* [React](https://reactjs.org/)
+* [Bootstrap](https://getbootstrap.com/)
+* [React-bootstrap](https://react-bootstrap.github.io/)
+* [Bulma](https://bulma.io/)
+* [Jest - for testing](https://jestjs.io/)
+* [Netlify - Hosting/Build](https://www.netlify.com/)
 
 
 
