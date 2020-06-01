@@ -13,7 +13,7 @@ export default function Card(props) {
 
             <div className="card-content">
               <div className="card-image">
-                <figure class="image is-4by3">
+                <figure className="image is-4by3">
                   <img src={props.cardDetails.imageUrl || defaultImage} alt={props.cardDetails.imgAlt} />
                 </figure>
               </div>
