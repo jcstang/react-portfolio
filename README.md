@@ -25,7 +25,6 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Build Status](https://travis-ci.org/jcstang/react-portfolio.svg?branch=master)](https://travis-ci.org/jcstang/react-portfolio)
-![Build][travis-shield]
 
 
 <!-- PROJECT LOGO -->
