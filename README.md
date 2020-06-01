@@ -13,11 +13,12 @@
 
 # JACOB STANGER | Full Stack Web Developer | Profile
 
-
+I've built a portfolio with vanilla javascript and just plain old HTML and CSS. This time I wanted to build it in React, with React hooks!
 
 ### Built With
 
 * [React](https://reactjs.org/)
+* [React Hooks](https://reactjs.org/docs/hooks-intro.html)
 * [Bootstrap](https://getbootstrap.com/)
 * [React-bootstrap](https://react-bootstrap.github.io/)
 * [Bulma](https://bulma.io/)
