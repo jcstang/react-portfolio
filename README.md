@@ -24,7 +24,7 @@ I've built a portfolio with vanilla javascript and just plain old HTML and CSS. 
 * [Bulma](https://bulma.io/)
 * [Jest - for testing](https://jestjs.io/)
 * [Netlify - Hosting/Build](https://www.netlify.com/)
-
+* [Travis CI](https://travis-ci.org/)
 
 
 <!-- GETTING STARTED -->
