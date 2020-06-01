@@ -25,7 +25,7 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
+[![Build Status][travis-shield]]
 
 
 <!-- PROJECT LOGO -->
@@ -185,3 +185,5 @@ Project Link: [https://github.com/github_username/repo](https://github.com/githu
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jacob-stanger/
 [product-screenshot]: images/screenshot.png
+[travis-shield]: https://travis-ci.org/jcstang/react-portfolio.svg?branch=master)](https://travis-ci.org/jcstang/react-portfolio
+[travis-url]
