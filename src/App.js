@@ -24,12 +24,12 @@ function App() {
       <Header />
 
       <TechSection techList={firstTechRowState}/>
-      <TechSection techList={secondTechRowState}/>
 
       <CardContainer cardList={firstRowState} />
       <CardContainer cardList={secondRowState} />
       <CardContainer cardList={thirdRowState} />
 
+      <TechSection techList={secondTechRowState}/>
       <Footer />
     </>
   );

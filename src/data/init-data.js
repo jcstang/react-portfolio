@@ -104,43 +104,6 @@ const defaultIcon = "fas fa-code";
 
 const techIKnow1Row = [
     {
-        title: 'Node JS',
-        iconCode: 'fab fa-node',
-        sizeCode: 'fa-5x'
-    },
-    {
-        title: 'npm',
-        iconCode: 'fab fa-npm',
-        sizeCode: 'fa-5x'
-    },
-    {
-        title: 'SASS',
-        iconCode: 'fab fa-sass',
-        sizeCode: 'fa-5x'
-    },
-    {
-        title: 'gitkraken',
-        iconCode: 'fab fa-gitkraken',
-        sizeCode: 'fa-5x'
-    },
-    {
-        title: 'Linux',
-        iconCode: 'fab fa-linux',
-        sizeCode: 'fa-5x'
-    },
-    {
-        title: 'Bootstrap',
-        iconCode: defaultIcon,
-        sizeCode: 'fa-5x'
-    },
-];
-const techIKnow2Row = [
-    {
-        title: 'React JS',
-        iconCode: 'fab fa-react',
-        sizeCode: 'fa-5x'
-    },
-    {
         title: 'HTML5',
         iconCode: 'fab fa-html5',
         sizeCode: 'fa-5x'
@@ -156,20 +119,63 @@ const techIKnow2Row = [
         sizeCode: 'fa-5x'
     },
     {
+        title: 'Node JS',
+        iconCode: 'fab fa-node',
+        sizeCode: 'fa-5x'
+    },
+    {
+        title: 'npm',
+        iconCode: 'fab fa-npm',
+        sizeCode: 'fa-5x'
+    },
+    {
+        title: 'SASS',
+        iconCode: 'fab fa-sass',
+        sizeCode: 'fa-5x'
+    },
+    {
+        title: 'Bootstrap',
+        iconCode: defaultIcon,
+        sizeCode: 'fa-5x'
+    },
+    {
+        title: 'React JS',
+        iconCode: 'fab fa-react',
+        sizeCode: 'fa-5x'
+    },
+];
+const techIKnow2Row = [
+    {
         title: 'jQuery',
         iconCode: defaultIcon,
         sizeCode: 'fa-5x'
     },
     {
-        title: 'Salesforce',
+        title: 'Bulma',
         iconCode: defaultIcon,
         sizeCode: 'fa-5x'
     },
     {
-        title: 'iOS and macOS',
-        iconCode: 'fab fa-apple',
+        title: 'Handlebars',
+        iconCode: defaultIcon,
         sizeCode: 'fa-5x'
     },
+    {
+        title: 'MongoDB',
+        iconCode: defaultIcon,
+        sizeCode: 'fa-5x'
+    },
+    {
+        title: 'MySQL',
+        iconCode: defaultIcon,
+        sizeCode: 'fa-5x'
+    },
+    {
+        title: 'Express',
+        iconCode: defaultIcon,
+        sizeCode: 'fa-5x'
+    },
+
 ];
 
 
