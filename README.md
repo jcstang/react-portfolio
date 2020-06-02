@@ -11,6 +11,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Build Status](https://travis-ci.org/jcstang/react-portfolio.svg?branch=master)](https://travis-ci.org/jcstang/react-portfolio)
 [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fjc_stang)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fjcstang%2Fnot-reddit)
+[![GitHub stars](https://img.shields.io/github/stars/jcstang/react-portfolio)](https://github.com/jcstang/react-portfolio/stargazers)
 
 # JACOB STANGER | Full Stack Web Developer | Profile
 
