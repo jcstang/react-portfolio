@@ -12,8 +12,10 @@
 [![Build Status](https://travis-ci.org/jcstang/react-portfolio.svg?branch=master)](https://travis-ci.org/jcstang/react-portfolio)
 [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fjc_stang)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fjcstang%2Fnot-reddit)
 [![GitHub stars](https://img.shields.io/github/stars/jcstang/react-portfolio)](https://github.com/jcstang/react-portfolio/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/jcstang/react-portfolio)](https://github.com/jcstang/react-portfolio/issues)
 
-# JACOB STANGER | Full Stack Web Developer | Profile
+# JACOB STANGER
+## Full Stack Web Developer | Profile
 
 I've built a portfolio with vanilla javascript and just plain old HTML and CSS. This time I wanted to build it in React, with React hooks!
 
