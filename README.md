@@ -10,7 +10,7 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Build Status](https://travis-ci.org/jcstang/react-portfolio.svg?branch=master)](https://travis-ci.org/jcstang/react-portfolio)
-[![tweet](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fjc_stang)
+![tweet](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fjc_stang)
 
 # JACOB STANGER | Full Stack Web Developer | Profile
 
