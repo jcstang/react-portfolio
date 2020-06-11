@@ -1,14 +1,15 @@
 import React from 'react';
 import TechCard from '../TechCard';
+import TileContainer from '../../containers/TileContainer';
 
 export default function TechSection(props) {
 
   return (
     <div className="container is-fluid">
-      <div className="columns is-centered is-mobile">
+      <div className="columns">
         {
           props.techList.map((tech, index) => (
-            <TechCard 
+            <TechCard
               title={tech.title}
               key={index}
               iconCode={tech.iconCode}
@@ -18,6 +19,6 @@ export default function TechSection(props) {
         }
       </div>
     </div>
-    
+
   );
 }

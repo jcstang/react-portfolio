@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function TechCard(props) {
   return (
-    <div className="column">
+    <div className="column is-two-fifths-mobile">
       <div className="card ">
         <div className="card-content">
           <i className={`${props.iconCode} ${props.sizeCode}`}></i>

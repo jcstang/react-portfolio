@@ -7,6 +7,7 @@ import initData from './data/init-data';
 import TechSection from './components/TechSection';
 import 'bulma/css/bulma.css';
 import './App.css';
+import TileContainer from './containers/TileContainer';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       <Header />
 
       <TechSection techList={firstTechRowState}/>
+      <TileContainer />
 
       <CardContainer cardList={firstRowState} />
       <CardContainer cardList={secondRowState} />
