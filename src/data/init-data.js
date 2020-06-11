@@ -1,6 +1,14 @@
 
 const row1Data = [
     {
+        title: 'Not reddit, Seenit ',
+        imageUrl: 'https://jcstang-s3.s3-us-west-1.amazonaws.com/img-assets/seenit-screenshot.png',
+        imgAtl: 'Seenit screenshot',
+        description: 'Full Stack MERN app. API routes on Express using Mongo and Mongoose. React with React hooks',
+        githubUrl: 'https://github.com/jcstang/not-reddit',
+        projectUrl: 'https://not-reddit-seenit.herokuapp.com/'
+    },
+    {
         title: 'React Book App',
         imageUrl: 'https://jcstang-s3.s3-us-west-1.amazonaws.com/img-assets/react-books-app-screenshot.png',
         imgAtl: 'screenshot of react book app',
@@ -16,14 +24,7 @@ const row1Data = [
         githubUrl: 'https://github.com/jcstang/passMan',
         projectUrl: undefined
     },
-    {
-        title: 'The Salty Beard | Recipe App',
-        imageUrl: 'https://jcstang-s3.s3-us-west-1.amazonaws.com/img-assets/project1-screen.png',
-        imgAtl: 'salty beard app screenshot',
-        description: 'API driven app that dynamic rendered results using HTML, CSS, JQuery and Javascript.',
-        githubUrl: 'https://github.com/Darkthistle982/recipe_box_app',
-        projectUrl: 'https://darkthistle982.github.io/recipe_box_app/'
-    },
+
 ];
 
 const row2Data = [
@@ -55,12 +56,12 @@ const row2Data = [
 
 const row3Data = [
     {
-        title: 'not reddit, Seenit - COMING SOON',
-        imageUrl: undefined,
-        imgAtl: 'code',
-        description: 'Full Stack MERN app. API routes on Express using Mongo and Mongoose. React with React hooks',
-        githubUrl: 'https://github.com/jcstang/not-reddit',
-        projectUrl: 'https://not-reddit-seenit.herokuapp.com/'
+        title: 'The Salty Beard | Recipe App',
+        imageUrl: 'https://jcstang-s3.s3-us-west-1.amazonaws.com/img-assets/project1-screen.png',
+        imgAtl: 'salty beard app screenshot',
+        description: 'API driven app that dynamic rendered results using HTML, CSS, JQuery and Javascript.',
+        githubUrl: 'https://github.com/Darkthistle982/recipe_box_app',
+        projectUrl: 'https://darkthistle982.github.io/recipe_box_app/'
     },
     {
         title: '@jcstang/get-movie - my npm package ',

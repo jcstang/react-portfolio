@@ -7,9 +7,11 @@ import initData from './data/init-data';
 import TechSection from './components/TechSection';
 import 'bulma/css/bulma.css';
 import './App.css';
+import TileContainer from './containers/TileContainer';
 
 function App() {
 
+  // NEED to change titles or screenshots? go edit ./data/init-data
   // using State
   const [ firstRowState ] = useState(initData.row1);
   const [ secondRowState ] = useState(initData.row2);
@@ -24,6 +26,7 @@ function App() {
       <Header />
 
       <TechSection techList={firstTechRowState}/>
+      {/* <TileContainer /> */}
 
       <CardContainer cardList={firstRowState} />
       <CardContainer cardList={secondRowState} />

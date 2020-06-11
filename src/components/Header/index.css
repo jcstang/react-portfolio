@@ -3,3 +3,12 @@
     padding-bottom: 1rem;
     margin-bottom: 2rem;
 }
+
+.social-btn {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.badge-img {
+    max-width: 12vw;
+}
