@@ -148,34 +148,34 @@ const techIKnow1Row = [
 const techIKnow2Row = [
     {
         title: 'jQuery',
-        iconCode: defaultIcon,
+        iconCode: 'fas fa-people-carry',
         sizeCode: 'fa-5x'
     },
     {
         title: 'Bulma',
-        iconCode: defaultIcon,
+        iconCode: 'fab fa-css3-alt',
         sizeCode: 'fa-5x'
     },
     {
         title: 'Handlebars',
-        iconCode: defaultIcon,
+        iconCode: 'fas fa-bicycle',
         sizeCode: 'fa-5x'
     },
     {
         title: 'MongoDB',
-        iconCode: defaultIcon,
-        sizeCode: 'fa-5x'
-    },
-    {
-        title: 'MySQL',
-        iconCode: defaultIcon,
+        iconCode: 'fas fa-database',
         sizeCode: 'fa-5x'
     },
     {
         title: 'Express',
-        iconCode: defaultIcon,
+        iconCode: 'fas fa-terminal',
         sizeCode: 'fa-5x'
     },
+    {
+        title: 'MySQL',
+        iconCode: 'fas fa-database',
+        sizeCode: 'fa-5x'
+    }
 
 ];
 
