@@ -1,7 +1,9 @@
 import React from 'react';
 import './index.css';
+import Social from '../../components/Social';
 
 export default function TileContainer(props) {
+  
   return (
     <>
       {/* nice space around it like a bubble */}
@@ -12,9 +14,13 @@ export default function TileContainer(props) {
           <div class="tile is-vertical is-8">
             <div class="tile">
               <div class="tile is-parent is-vertical">
-                <article class="tile is-child notification is-primary">
-                  <p class="title">Vertical...</p>
-                  <p class="subtitle">Top tile</p>
+                <article class="tile is-child notification">
+                  <p class="title">Seenit</p>
+                  <p class="subtitle">Full Stack MERN app. API routes on Express using Mongo and Mongoose. React with React hooks</p>
+                  <figure class="image is-4by3">
+                    <img src="https://jcstang-s3.s3-us-west-1.amazonaws.com/img-assets/seenit-screenshot.png" alt='blah'/>
+                  </figure>
+                  <Social githubUrl='https://not-reddit-seenit.herokuapp.com/' siteUrl='https://github.com/jcstang/not-reddit' />
                 </article>
                 <article class="tile is-child notification is-warning">
                   <p class="title">...tiles</p>
@@ -30,7 +36,7 @@ export default function TileContainer(props) {
                   <p class="title">Middle tile</p>
                   <p class="subtitle">With an image</p>
                   <figure class="image is-4by3">
-                    <img src="https://bulma.io/images/placeholders/640x480.png" />
+                    <img src="https://bulma.io/images/placeholders/640x480.png" alt='blah'/>
                   </figure>
                 </article>
               </div>

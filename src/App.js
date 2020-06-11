@@ -26,7 +26,7 @@ function App() {
       <Header />
 
       <TechSection techList={firstTechRowState}/>
-      {/* <TileContainer /> */}
+      <TileContainer />
 
       <CardContainer cardList={firstRowState} />
       <CardContainer cardList={secondRowState} />
