@@ -38,6 +38,9 @@ export default function Header() {
                 <span className="icon"><i className="fab fa-twitter"></i></span>
                 <span>Twitter</span>
               </a>
+              <div className="container">
+                <img src="./badge-coding-bootcamp-trilogy.png" alt="developer certificate" className="badge-img" />
+              </div>
             </div>
           </div>
         </div>

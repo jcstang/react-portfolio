@@ -5,7 +5,7 @@ export default function TechSection(props) {
 
   return (
     <div className="container is-fluid">
-      <div className="columns is-centered is-full-mobile">
+      <div className="columns is-centered is-mobile">
         {
           props.techList.map((tech, index) => (
             <TechCard 
