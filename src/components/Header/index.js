@@ -1,7 +1,9 @@
 import React from "react";
 // import headshot from '../../headshot-trees-300x311.png';
 import headshot from "../../images/headshot-trees-300x311.png";
+import Social from "../Social";
 import "./index.css";
+import BootcampBadge from "../Social/BootcampBadge";
 
 export default function Header() {
   return (
@@ -15,6 +17,8 @@ export default function Header() {
               alt="Generic placeholder"
             />
           </div>
+
+          {/* 2nd column */}
           <div className="col-md-9">
             <h5 className="title is-2">Jacob Stanger</h5>
             <h5 className="title is-3">About me</h5>
@@ -29,69 +33,13 @@ export default function Header() {
             </p>
             <hr />
             <p>
-              <strong>Email</strong> JacobcStanger@gmail.com
+              <strong>Email </strong>JacobcStanger@gmail.com
             </p>
+
             <div className="row container is-fluid">
-              {/* LinkedIn Link */}
-              <a
-                className="button is-link social-btn"
-                href="https://www.linkedin.com/in/jacob-stanger/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <i className="fab fa-linkedin"></i>
-                </span>
-                <span>LinkedIn</span>
-              </a>
-
-              {/* Github link */}
-              <a
-                className="button is-link social-btn"
-                href="https://github.com/jcstang"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <i className="fab fa-github"></i>
-                </span>
-                <span>GitHub</span>
-              </a>
-
-              {/* Twitter Link */}
-              <a
-                className="button is-info social-btn"
-                href="https://twitter.com/jc_stang"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <i className="fab fa-twitter"></i>
-                </span>
-                <span>Twitter</span>
-              </a>
-
-              {/* Resume link */}
-              <a
-                className="button is-info social-btn"
-                href="https://www.dropbox.com/s/yk8fwp7ud19zyd3/Jacob%20Stanger%20-%20Resume.docx?dl=0"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <i className="fab fa-dropbox"></i>
-                </span>
-                <span>My Resume</span>
-              </a>
-
-              {/* Bootcamp badge */}
-              <div className="container">
-                <img
-                  src="./badge-coding-bootcamp-trilogy.png"
-                  alt="developer certificate"
-                  className="badge-img"
-                />
-              </div>
+              {/* LinkedIn, Github, Twitter, Resume Link */}
+              <Social />
+              <BootcampBadge />
             </div>
           </div>
         </div>
