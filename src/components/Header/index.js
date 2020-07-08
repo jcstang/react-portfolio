@@ -32,6 +32,7 @@ export default function Header() {
               <strong>Email</strong> JacobcStanger@gmail.com
             </p>
             <div className="row container is-fluid">
+              {/* LinkedIn Link */}
               <a
                 className="button is-link social-btn"
                 href="https://www.linkedin.com/in/jacob-stanger/"
@@ -44,6 +45,7 @@ export default function Header() {
                 <span>LinkedIn</span>
               </a>
 
+              {/* Github link */}
               <a
                 className="button is-link social-btn"
                 href="https://github.com/jcstang"
@@ -56,6 +58,7 @@ export default function Header() {
                 <span>GitHub</span>
               </a>
 
+              {/* Twitter Link */}
               <a
                 className="button is-info social-btn"
                 href="https://twitter.com/jc_stang"
@@ -68,6 +71,7 @@ export default function Header() {
                 <span>Twitter</span>
               </a>
 
+              {/* Resume link */}
               <a
                 className="button is-info social-btn"
                 href="https://www.dropbox.com/s/yk8fwp7ud19zyd3/Jacob%20Stanger%20-%20Resume.docx?dl=0"
@@ -79,6 +83,8 @@ export default function Header() {
                 </span>
                 <span>My Resume</span>
               </a>
+
+              {/* Bootcamp badge */}
               <div className="container">
                 <img
                   src="./badge-coding-bootcamp-trilogy.png"
