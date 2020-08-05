@@ -68,8 +68,16 @@ const row3Data = [
         imageUrl: 'https://jcstang-s3.s3-us-west-1.amazonaws.com/img-assets/Npm-logo.svg',
         imgAtl: 'npm logo',
         description: 'Wanted to publish a package to npm, found a tutorial and decided to give it a shot! Node and npm',
-        githubUrl: 'https://github.com/Darkthistle982/recipe_box_app',
+        githubUrl: 'https://github.com/jcstang/tiny',
         projectUrl: undefined
+    },
+    {
+        title: 'Only-Pass',
+        imageUrl: '',
+        imgAtl: 'only pass screenshot',
+        description: 'Password generator in react. User specs on what type of password comes out of it.',
+        githubUrl: 'https://github.com/jcstang/only-pass',
+        projectUrl: 'https://youthful-thompson-071a45.netlify.app/'
     },
 ];
 

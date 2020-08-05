@@ -9,8 +9,7 @@ import "bulma/css/bulma.css";
 import "./App.css";
 
 function App() {
-  // NEED to change titles or screenshots? go edit ./data/init-data
-  // using State
+  // DO YOU NEED to change titles or screenshots? go edit ./data/init-data
   const [firstRowState] = useState(initData.row1);
   const [secondRowState] = useState(initData.row2);
   const [thirdRowState] = useState(initData.row3);
