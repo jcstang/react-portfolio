@@ -3,6 +3,7 @@ import "bulma/css/bulma.css";
 import "./index.css";
 import Social from "../Social";
 import SpaceWalker from "../SpaceWalker";
+import axios from 'axios';
 
 export default function Footer() {
 
@@ -12,17 +13,23 @@ export default function Footer() {
     getPeopleInSpace();
   }
 
-  const getPeopleInSpace = async () => {
+  const getPeopleInSpace = () => {
     const url = "http://api.open-notify.org/astros.json?callback=?";
-    let response = await fetch(url);
+    axios.get(url).then(function(response) {
+      if(response.status === 200) {
+        console.log(response);
+      }
+    }).catch(function(error) {});
 
-    if(response.ok) { // if status is 200-299
-      // let json = await response.json();
-      console.log(response);
-      console.log(response.body);
-    } else {
-      console.error("HTTP-Error: " + response.status);
-    }
+    // let response = await fetch(url);
+
+    // if(response.ok) { // if status is 200-299
+    //   // let json = await response.json();
+    //   console.log(response);
+    //   console.log(response.body);
+    // } else {
+    //   console.error("HTTP-Error: " + response.status);
+    // }
   }
 
   // $.getJSON('http://api.open-notify.org/astros.json?callback=?', function(data) {
