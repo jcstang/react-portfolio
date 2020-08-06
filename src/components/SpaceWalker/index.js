@@ -1,10 +1,25 @@
 import './index.css';
 import React from 'react';
 
-export default function SpaceWalker() {
+export default function SpaceWalker(props) {
 
   return (
-    <h3>List of space walkers</h3>
+    <div>
+      <h3>List of space walkers</h3>
+      {
+        props.people.map((person, index) => (
+          <p>person.name</p>
+        ))
+      }
+    </div>
+    // <ol>
+    //   {
+    //     props.people.map((person, index) => (
+    //       <p>person.name<p/>
+    //     ))
+    //   }
+    // </ol>
+
   );
 }
 

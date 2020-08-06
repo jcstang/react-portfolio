@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "bulma/css/bulma.css";
 import "./index.css";
 import Social from "../Social";
@@ -6,40 +6,31 @@ import SpaceWalker from "../SpaceWalker";
 import axios from 'axios';
 
 export default function Footer() {
+  
+  const getPeopleInSpace = () => {
+    const url = "http://api.open-notify.org/astros.json?callback=";
+    axios.get(url)
+      .then( function(response) {
+        if(response.status === 200) {
+          console.log(response.data.people);
+          setPeople(response.data.peopele);
+        }
+      })
+      .catch(function(error) {
+        console.log(error);
+      });
+
+  }
+
+  const [people, setPeople] = useState([]);
+  // getPeopleInSpace();
 
   const spaceClickHandler = (event) => {
     // console.log(event.target);
     console.log('ive been clicked!');
-    getPeopleInSpace();
+    // getPeopleInSpace();
   }
 
-  const getPeopleInSpace = () => {
-    const url = "http://api.open-notify.org/astros.json?callback=?";
-    axios.get(url).then(function(response) {
-      if(response.status === 200) {
-        console.log(response);
-      }
-    }).catch(function(error) {});
-
-    // let response = await fetch(url);
-
-    // if(response.ok) { // if status is 200-299
-    //   // let json = await response.json();
-    //   console.log(response);
-    //   console.log(response.body);
-    // } else {
-    //   console.error("HTTP-Error: " + response.status);
-    // }
-  }
-
-  // $.getJSON('http://api.open-notify.org/astros.json?callback=?', function(data) {
-//     var number = data['number'];
-//     $('#spacepeeps').html(number);
-
-//     data['people'].forEach(function (d) {
-//          $('#astronames').append('<li>' + d['name'] + '</li>');
-//     });
-// });
 
 
   return (
@@ -63,7 +54,7 @@ export default function Footer() {
           Linkedin, GitHub & Twitter
         </p>
         <Social />
-        <SpaceWalker />
+        {/* <SpaceWalker people={people}/> */}
       </div>
     </footer>
   );
