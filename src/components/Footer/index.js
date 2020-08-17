@@ -35,11 +35,11 @@ export default function Footer() {
 
   return (
     <footer className="container is-fluid footer btm-footer">
-      <p id="space-man">
+      {/* <p id="space-man">
         <button className="btn" onClick={spaceClickHandler}>
           <i className="fas fa-user-astronaut"></i>
         </button>
-      </p>
+      </p> */}
       <div className="content has-text-centered">
         <div className="content">
           <p className="title is-5 has-text-centered">
