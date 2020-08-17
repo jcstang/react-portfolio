@@ -13,9 +13,12 @@ function App() {
   const [firstRowState] = useState(initData.row1);
   const [secondRowState] = useState(initData.row2);
   const [thirdRowState] = useState(initData.row3);
-
+  
   const [firstTechRowState] = useState(initData.techRow1);
   const [secondTechRowState] = useState(initData.techRow2);
+  
+  const ROW_COUNT = 3;
+  let currentCount = 1;
 
   const getDataFromObject = (object) => {
     for (const key in object) {
@@ -30,13 +33,14 @@ function App() {
   // getDataFromObject(initData);
 
   const buildTheCards = (array) => {
-    const count = 3;
-    let currCount = 1
-
-    return (
-      <CardContainer cardList={array} />
-    );
+    array.map(() => {
+      
+    })
+    // props.cardList.map((card, index) => (
+    //   <Card key={index} cardDetails={card} />
+    // ))
   }
+
 
   return (
     <>
