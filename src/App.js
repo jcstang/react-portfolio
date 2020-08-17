@@ -7,39 +7,16 @@ import initData from "./data/init-data";
 import TechSection from "./components/TechSection";
 import "bulma/css/bulma.css";
 import "./App.css";
+import CardBigBox from "./components/CardBigBox";
 
 function App() {
-  // DO YOU NEED to change titles or screenshots? go edit ./data/init-data
+  // DO YOU NEED to change titles or screenshots???? go edit ./data/init-data
   const [firstRowState] = useState(initData.row1);
   const [secondRowState] = useState(initData.row2);
   const [thirdRowState] = useState(initData.row3);
   
   const [firstTechRowState] = useState(initData.techRow1);
   const [secondTechRowState] = useState(initData.techRow2);
-  
-  const ROW_COUNT = 3;
-  let currentCount = 1;
-
-  const getDataFromObject = (object) => {
-    for (const key in object) {
-      if (object.hasOwnProperty(key)) {
-        console.log(`here is the key: ${key}`);
-        const element = object[key];
-        console.log(element);
-      }
-    }
-  }
-
-  // getDataFromObject(initData);
-
-  const buildTheCards = (array) => {
-    array.map(() => {
-      
-    })
-    // props.cardList.map((card, index) => (
-    //   <Card key={index} cardDetails={card} />
-    // ))
-  }
 
 
   return (
@@ -49,9 +26,10 @@ function App() {
 
       <TechSection techList={firstTechRowState} />
 
-      <CardContainer cardList={firstRowState} />
+      {/* <CardContainer cardList={firstRowState} />
       <CardContainer cardList={secondRowState} />
-      <CardContainer cardList={thirdRowState} />
+      <CardContainer cardList={thirdRowState} /> */}
+      <CardBigBox />
 
       <TechSection techList={secondTechRowState} />
       <Footer />
