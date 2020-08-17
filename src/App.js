@@ -17,6 +17,27 @@ function App() {
   const [firstTechRowState] = useState(initData.techRow1);
   const [secondTechRowState] = useState(initData.techRow2);
 
+  const getDataFromObject = (object) => {
+    for (const key in object) {
+      if (object.hasOwnProperty(key)) {
+        console.log(`here is the key: ${key}`);
+        const element = object[key];
+        console.log(element);
+      }
+    }
+  }
+
+  // getDataFromObject(initData);
+
+  const buildTheCards = (array) => {
+    const count = 3;
+    let currCount = 1
+
+    return (
+      <CardContainer cardList={array} />
+    );
+  }
+
   return (
     <>
       <NavbarComp />
