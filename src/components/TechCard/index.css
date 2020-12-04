@@ -1,0 +1,16 @@
+/* Index.css */
+
+.card-content {
+  padding: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tile {
+  background-color: #007ca4;
+}
+
+#tech-title,
+#tech-icon {
+  color: white;
+}
